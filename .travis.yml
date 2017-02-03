@@ -4,4 +4,4 @@ language: R
 sudo: false
 cache: packages
 install:
-  - Rscript -e 'install.packages("dplyr", repos = "http://cran.rstudio.com")'
+  - Rscript -e 'install.packages(c("dplyr","knitr"), repos = "http://cran.rstudio.com")'

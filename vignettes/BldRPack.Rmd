@@ -1,7 +1,7 @@
 ---
 title: "details"
-author: "glenn.ticket@telenet.be"
-date: "2017-02-03"
+author: "Glenn Ticket <glennticket@somedomain.com>"
+date: "`r Sys.Date()`"
 output: rmarkdown::html_vignette
 vignette: >
   %\VignetteIndexEntry{details}
@@ -22,6 +22,10 @@ The following functions are part of this package:
 ## Examples
 
 Running the below statment will create the file name for the accidents data file which contains the information of the year 2013.
-[1] "accident_2013.csv.bz2"
+```{r, echo=FALSE, results='asis'}
+make_filename(2013)
+```
 Running fars_map_state(48,2013) will produce a map of Texas with the accident data of 2013.
-![plot of chunk map](figure/map-1.png)
+```{r map, echo=FALSE}
+fars_map_state(48,2013)
+```

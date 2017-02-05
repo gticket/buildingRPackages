@@ -7,6 +7,7 @@ Author: Glenn Ticket <glennticket@somedomain.com>
 Maintainer: Glenn Ticket <glennticket@somedomain.com>
 Description: This is my week 4 assignment of the Johns Hopkins University MOOC
     Building R Packages on Coursera
+Imports: dplyr, maps, readr, tidyr
 License: GPL-3
 LazyData: TRUE
 Suggests:

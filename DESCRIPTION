@@ -9,9 +9,11 @@ Description: This is my week 4 assignment of the Johns Hopkins University MOOC
     Building R Packages on Coursera
 Imports: dplyr, maps, readr, tidyr
 License: GPL-3
+Encoding: UTF-8
 LazyData: TRUE
 Suggests:
     knitr,
-    rmarkdown
+    rmarkdown,
+    testthat
 VignetteBuilder: knitr
 RoxygenNote: 5.0.1

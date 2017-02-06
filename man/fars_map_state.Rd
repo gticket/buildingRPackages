@@ -9,7 +9,7 @@ fars_map_state(state.num, year)
 \arguments{
 \item{year}{The year for which the accident data is to be displayed.}
 
-\item{state}{The state for which the accident data is to be displayed. The value provided must be
+\item{state.num}{The state for which the accident data is to be displayed. The value provided must be
 an integer representing a state as found in the accident data file.}
 }
 \value{

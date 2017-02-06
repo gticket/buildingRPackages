@@ -17,7 +17,8 @@ This function reads every accident file for which the year is provided as input
 and returns a data frame tbl where the rows are month and the columns are the years.
 }
 \examples{
+\dontrun{
 fars_summarize_years(c(2013,2014))
-
+}
 }
 

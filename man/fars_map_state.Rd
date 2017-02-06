@@ -9,7 +9,7 @@ fars_map_state(state.num, year)
 \arguments{
 \item{year}{The year for which the accident data is to be displayed.}
 
-\item{state}{The state for which the accident data is to be displayed. The value provided must be 
+\item{state}{The state for which the accident data is to be displayed. The value provided must be
 an integer representing a state as found in the accident data file.}
 }
 \value{
@@ -20,7 +20,9 @@ This function reads every accident file for which the year is provided as input
 and displays a state map (state provided as input) with the accidents of that years.
 }
 \examples{
+\dontrun{
 fars_map_state(13,2014)
+}
 
 }
 

@@ -18,7 +18,8 @@ and returns a list with the same length as the input vector.
 An error is thrown if one of the provided years does not have an accident file associated to it.
 }
 \examples{
+\dontrun{
 fars_read_years(c(2013,2014))
-
+}
 }
 

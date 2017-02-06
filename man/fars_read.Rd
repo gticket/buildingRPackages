@@ -19,7 +19,8 @@ If it does exists it reads the file as a csv file without progress bar
  and without returning diagnotstic messages.
 }
 \examples{
+\dontrun{
 fars_read("accident_2013.csv.bz2")
-
+}
 }
 
